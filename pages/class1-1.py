@@ -68,3 +68,16 @@ a = input("請輸入一些文字:")
 print("輸入結束")
 print(int(a) + 10)
 print(type(a))  # 證明透過input()輸入內容都是字串
+
+a = int(input("請輸入半徑:"))
+print(3.14 * a * a)  # 計算圓的面積
+B = int(input("請輸入國文期中成績:"))
+c = int(input("請輸入國文期末成績:"))
+print("國文平均成績:", (B + c) / 2)  # 計算國文平均成績
+
+
+# 字串格式化
+name = "小明"
+age = 18
+print(f"hello,my name is {name}, I am {age} years old")  # 使用f-string格式化字串
+# 可以將變數直接放在大括號{}裡面，這樣就可以在字串中使用變數的值了)
